@@ -1,4 +1,10 @@
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Policies & Terms",
+  description: "Read the booking policies, cancellation terms, and house rules for Uttarayan The Homestay to ensure a smooth and peaceful stay.",
+};
 
 export default function Policy() {
   return (

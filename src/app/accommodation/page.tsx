@@ -1,5 +1,10 @@
 import Link from "next/link";
+import { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "Rooms & Suites",
+  description: "Explore our premium First and Second Floor suites at Uttarayan The Homestay. Enjoy private sunrise balconies, modern comforts, and breathtaking Himalayan views.",
+};
 export default function Accommodation() {
   return (
     <>

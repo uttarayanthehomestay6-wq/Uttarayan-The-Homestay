@@ -1,4 +1,10 @@
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Our Story",
+  description: "Learn about the history and vision behind Uttarayan The Homestay, a sanctuary of peace and Kumaoni hospitality in the majestic Himalayas.",
+};
 
 export default function About() {
   return (

@@ -1,6 +1,12 @@
 import Link from "next/link";
 import fs from "fs";
 import path from "path";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Photo Gallery",
+  description: "Browse photos of Uttarayan The Homestay, showcasing our beautiful property, elegant suites, organic farm, and the breathtaking Nanda Devi views.",
+};
 
 export default function Gallery() {
   // Read photos from public directory at runtime on server

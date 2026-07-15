@@ -1,4 +1,10 @@
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Experiences & Dining",
+  description: "Discover local attractions around Almora like Kasar Devi and Nanda Devi, and savor authentic Kumaoni vegetarian delicacies at Uttarayan The Homestay.",
+};
 
 export default function Experiences() {
   return (
