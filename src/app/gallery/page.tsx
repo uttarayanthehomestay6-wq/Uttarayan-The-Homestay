@@ -7,9 +7,10 @@ export default function Gallery() {
   const photosDir = path.join(process.cwd(), "public", "photos");
   let photos = [];
   try {
-    photos = fs.readdirSync(photosDir)
-      .filter(f => f.endsWith('.jpg'))
+    const files = fs.readdirSync(photosDir)
+      .filter(f => f.toLowerCase().endsWith('.jpg') || f.toLowerCase().endsWith('.jpeg'))
       .map(f => '/photos/' + f);
+    photos = Array.from(new Set(files));
   } catch (e) {
     console.error("Error reading photos directory:", e);
   }
@@ -28,9 +29,9 @@ export default function Gallery() {
 
       <section className="py-12 bg-surface-bright">
         <div className="max-w-[1400px] mx-auto px-margin-mobile md:px-margin-desktop">
-          <div className="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-4 space-y-4 reveal">
+          <div className="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-4 reveal">
             {photos.map((photo, i) => (
-              <div key={i} className="break-inside-avoid overflow-hidden rounded-md soft-elevation group cursor-pointer">
+              <div key={i} className="break-inside-avoid mb-4 w-full inline-block overflow-hidden rounded-md soft-elevation group cursor-pointer">
                 {/* We use a standard img tag because next/image requires width/height and we want a masonry masonry layout */}
                 <img 
                   src={photo} 

@@ -21,14 +21,14 @@ export default function Home() {
               Book Your Stay
             </Link>
             <div className="flex gap-4">
-              <Link href="/contact" className="bg-surface-bright/10 backdrop-blur-md border border-surface-bright/30 text-surface-bright px-6 py-4 rounded-DEFAULT flex items-center gap-2 hover:bg-surface-bright/20 transition-all">
+              <a href="tel:+917891109555" className="bg-surface-bright/10 backdrop-blur-md border border-surface-bright/30 text-surface-bright px-6 py-4 rounded-DEFAULT flex items-center gap-2 hover:bg-surface-bright/20 transition-all">
                 <span className="material-symbols-outlined text-sm">call</span>
                 <span className="font-label-md text-label-md">Call</span>
-              </Link>
-              <Link href="/contact" className="bg-surface-bright/10 backdrop-blur-md border border-surface-bright/30 text-surface-bright px-6 py-4 rounded-DEFAULT flex items-center gap-2 hover:bg-surface-bright/20 transition-all">
+              </a>
+              <a href="https://wa.me/917891109555" target="_blank" rel="noopener noreferrer" className="bg-surface-bright/10 backdrop-blur-md border border-surface-bright/30 text-surface-bright px-6 py-4 rounded-DEFAULT flex items-center gap-2 hover:bg-surface-bright/20 transition-all">
                 <span className="material-symbols-outlined text-sm">chat</span>
                 <span className="font-label-md text-label-md">WhatsApp</span>
-              </Link>
+              </a>
             </div>
           </div>
         </div>
@@ -118,7 +118,7 @@ export default function Home() {
               </div>
               <h3 className="font-headline-md text-headline-md text-tertiary mb-2">The Celestial Suite</h3>
               <p className="font-body-md text-body-md text-on-surface-variant mb-6">A sprawling suite with a private wooden balcony offering 180-degree mountain views and a cozy fireplace corner.</p>
-              <button className="border border-tertiary px-6 py-2 font-label-md text-label-md hover:bg-tertiary hover:text-on-primary transition-all">View Details</button>
+              <Link href="/accommodation" className="border border-tertiary px-6 py-2 font-label-md text-label-md hover:bg-tertiary hover:text-on-primary transition-all inline-block">View Details</Link>
             </div>
             <div className="group cursor-pointer reveal" style={{transitionDelay: "200ms"}}>
               <div className="overflow-hidden mb-6 relative">
@@ -127,7 +127,7 @@ export default function Home() {
               </div>
               <h3 className="font-headline-md text-headline-md text-tertiary mb-2">The Valley Vista Room</h3>
               <p className="font-body-md text-body-md text-on-surface-variant mb-6">Intimate and quiet, this room is perfect for solo travelers or couples looking for a focused, meditative space.</p>
-              <button className="border border-tertiary px-6 py-2 font-label-md text-label-md hover:bg-tertiary hover:text-on-primary transition-all">View Details</button>
+              <Link href="/accommodation" className="border border-tertiary px-6 py-2 font-label-md text-label-md hover:bg-tertiary hover:text-on-primary transition-all inline-block">View Details</Link>
             </div>
           </div>
         </div>
@@ -161,7 +161,7 @@ export default function Home() {
                 <span className="font-body-md text-body-md">Traditional Brass Plate Service</span>
               </li>
             </ul>
-            <button className="bg-primary-fixed text-on-primary-fixed-variant px-8 py-3 font-label-md text-label-md hover:bg-surface-bright transition-all">Explore Menu</button>
+            <Link href="/contact" className="bg-primary-fixed text-on-primary-fixed-variant px-8 py-3 font-label-md text-label-md hover:bg-surface-bright transition-all inline-block">Enquire Now</Link>
           </div>
         </div>
       </section>
@@ -265,7 +265,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact" className="bg-primary text-on-primary px-10 py-4 rounded-DEFAULT font-label-md text-label-md tracking-widest uppercase hover:bg-primary-container transition-all text-center">Book Online</Link>
-              <Link href="/contact" className="border border-primary text-primary px-10 py-4 rounded-DEFAULT font-label-md text-label-md tracking-widest uppercase hover:bg-primary/5 transition-all text-center">Enquire on WhatsApp</Link>
+              <a href="https://wa.me/917891109555" target="_blank" rel="noopener noreferrer" className="border border-primary text-primary px-10 py-4 rounded-DEFAULT font-label-md text-label-md tracking-widest uppercase hover:bg-primary/5 transition-all text-center">Enquire on WhatsApp</a>
             </div>
           </div>
         </div>

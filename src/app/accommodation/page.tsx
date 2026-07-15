@@ -54,6 +54,12 @@ export default function Accommodation() {
                   <span className="font-label-md text-label-md uppercase tracking-wider">Modern Washroom</span>
                 </div>
               </div>
+              <div className="mt-8">
+                <a href="https://wa.me/917891109555" target="_blank" rel="noopener noreferrer" className="bg-[#25D366] text-white px-8 py-3 rounded-DEFAULT font-label-md text-label-md tracking-widest uppercase hover:bg-[#128C7E] transition-all inline-flex items-center gap-2 shadow-lg">
+                  <span className="material-symbols-outlined text-[18px]">chat</span>
+                  Book Now
+                </a>
+              </div>
             </div>
           </div>
           
@@ -78,6 +84,12 @@ export default function Accommodation() {
                   <span className="material-symbols-outlined text-secondary">bathroom</span>
                   <span className="font-label-md text-label-md uppercase tracking-wider">Modern Washroom</span>
                 </div>
+              </div>
+              <div className="mt-8">
+                <a href="https://wa.me/917891109555" target="_blank" rel="noopener noreferrer" className="bg-[#25D366] text-white px-8 py-3 rounded-DEFAULT font-label-md text-label-md tracking-widest uppercase hover:bg-[#128C7E] transition-all inline-flex items-center gap-2 shadow-lg">
+                  <span className="material-symbols-outlined text-[18px]">chat</span>
+                  Book Now
+                </a>
               </div>
             </div>
             <div className="md:col-span-7 reveal" style={{transitionDelay: "100ms"}}>

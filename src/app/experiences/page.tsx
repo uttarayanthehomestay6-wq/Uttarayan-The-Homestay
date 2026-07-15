@@ -26,41 +26,32 @@ export default function Experiences() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-gutter">
           <div className="group cursor-pointer reveal">
             <div className="relative overflow-hidden aspect-[4/5] mb-6 rounded-lg bg-surface-container-low">
-              <img className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Nanda Devi Temple" src="/places/nanda.png" alt="Nanda Devi Temple" />
+              <img className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Nanda Devi Temple" src="/places/Nanda Devi Temple.jpg" alt="Nanda Devi Temple" />
               <div className="absolute top-4 left-4 bg-secondary/10 backdrop-blur-sm text-secondary px-3 py-1 rounded-full font-label-md text-[10px]">SPIRITUAL</div>
             </div>
             <h3 className="font-title-lg text-title-lg mb-2">Nanda Devi Temple</h3>
             <p className="font-body-md text-body-md text-on-surface-variant mb-4">A 1000-year-old sanctuary dedicated to the patron goddess of Kumaon kings, featuring magnificent stone carvings.</p>
-            <div className="flex items-center text-primary font-label-md text-label-md tracking-wider">
-              <span>LEARN MORE</span>
-              <span className="material-symbols-outlined text-[18px] ml-2">trending_flat</span>
-            </div>
+
           </div>
           
           <div className="group cursor-pointer reveal" style={{transitionDelay: "100ms"}}>
             <div className="relative overflow-hidden aspect-[4/5] mb-6 rounded-lg bg-surface-container-low">
-              <img className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Malla Mahal" src="/photos/IMG_5124.jpg" alt="Malla Mahal" />
+              <img className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Malla Mahal" src="/places/Malla Mahal.jpg" alt="Malla Mahal" />
               <div className="absolute top-4 left-4 bg-secondary/10 backdrop-blur-sm text-secondary px-3 py-1 rounded-full font-label-md text-[10px]">HISTORICAL</div>
             </div>
             <h3 className="font-title-lg text-title-lg mb-2">Malla Mahal</h3>
             <p className="font-body-md text-body-md text-on-surface-variant mb-4">The former royal residence of the Chand dynasty, now a museum housing artifacts of the region's rich history.</p>
-            <div className="flex items-center text-primary font-label-md text-label-md tracking-wider">
-              <span>EXPLORE HISTORY</span>
-              <span className="material-symbols-outlined text-[18px] ml-2">trending_flat</span>
-            </div>
+
           </div>
           
           <div className="group cursor-pointer reveal" style={{transitionDelay: "200ms"}}>
             <div className="relative overflow-hidden aspect-[4/5] mb-6 rounded-lg bg-surface-container-low">
-              <img className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Almora Bazaar" src="/photos/IMG_5125.jpg" alt="Almora Bazaar" />
+              <img className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Almora Bazaar" src="/places/Almora Bazaar.jpg" alt="Almora Bazaar" />
               <div className="absolute top-4 left-4 bg-secondary/10 backdrop-blur-sm text-secondary px-3 py-1 rounded-full font-label-md text-[10px]">CULTURAL</div>
             </div>
             <h3 className="font-title-lg text-title-lg mb-2">Almora Bazaar</h3>
             <p className="font-body-md text-body-md text-on-surface-variant mb-4">Walk through 200-year-old stone streets lined with copper smiths, traditional weavers, and local spice markets.</p>
-            <div className="flex items-center text-primary font-label-md text-label-md tracking-wider">
-              <span>WALK THE STREETS</span>
-              <span className="material-symbols-outlined text-[18px] ml-2">trending_flat</span>
-            </div>
+
           </div>
         </div>
       </section>
@@ -78,7 +69,7 @@ export default function Experiences() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div className="flex flex-col md:flex-row gap-8 bg-surface-bright p-8 soft-elevation rounded-lg group reveal">
             <div className="w-full md:w-1/2 aspect-square rounded overflow-hidden">
-              <img className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Kasar Devi" src="/places/kasar.png" alt="Kasar Devi" />
+              <img className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Kasar Devi" src="/places/Kasar Devi Temple.jpg" alt="Kasar Devi" />
             </div>
             <div className="w-full md:w-1/2 flex flex-col justify-center">
               <span className="text-secondary font-label-md text-[12px] mb-2 uppercase">Crank's Ridge</span>
@@ -93,7 +84,7 @@ export default function Experiences() {
           
           <div className="flex flex-col md:flex-row gap-8 bg-surface-bright p-8 soft-elevation rounded-lg group reveal" style={{transitionDelay: "100ms"}}>
             <div className="w-full md:w-1/2 aspect-square rounded overflow-hidden">
-              <img className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Binsar Sanctuary" src="/places/binsar.png" alt="Binsar Sanctuary" />
+              <img className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Binsar Sanctuary" src="/places/Binsar Sanctuary.jpg" alt="Binsar Sanctuary" />
             </div>
             <div className="w-full md:w-1/2 flex flex-col justify-center">
               <span className="text-secondary font-label-md text-[12px] mb-2 uppercase">Flora & Fauna</span>
@@ -108,7 +99,7 @@ export default function Experiences() {
 
           <div className="flex flex-col md:flex-row gap-8 bg-surface-bright p-8 soft-elevation rounded-lg group reveal">
             <div className="w-full md:w-1/2 aspect-square rounded overflow-hidden">
-              <img className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Katarmal Sun Temple" src="/photos/IMG_5130.jpg" alt="Katarmal Sun Temple" />
+              <img className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Katarmal Sun Temple" src="/places/Katarmal Sun Temple.jpg" alt="Katarmal Sun Temple" />
             </div>
             <div className="w-full md:w-1/2 flex flex-col justify-center">
               <span className="text-secondary font-label-md text-[12px] mb-2 uppercase">9th Century Heritage</span>
@@ -123,7 +114,7 @@ export default function Experiences() {
 
           <div className="flex flex-col md:flex-row gap-8 bg-surface-bright p-8 soft-elevation rounded-lg group reveal" style={{transitionDelay: "100ms"}}>
             <div className="w-full md:w-1/2 aspect-square rounded overflow-hidden">
-              <img className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Chitai Golu Devta" src="/photos/IMG_5131.jpg" alt="Chitai Golu Devta" />
+              <img className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Chitai Golu Devta" src="/places/Chitai Golu Devta.jpg" alt="Chitai Golu Devta" />
             </div>
             <div className="w-full md:w-1/2 flex flex-col justify-center">
               <span className="text-secondary font-label-md text-[12px] mb-2 uppercase">Temple of Justice</span>
@@ -145,7 +136,7 @@ export default function Experiences() {
           </div>
           <div className="flex flex-col md:flex-row gap-12 items-center">
             <div className="w-full md:w-1/3">
-              <img className="w-full rounded-lg soft-elevation aspect-[3/4] object-cover" data-alt="Jageshwar Dham" src="/places/jageshwar.png" alt="Jageshwar Dham" />
+              <img className="w-full rounded-lg soft-elevation aspect-[3/4] object-cover" data-alt="Jageshwar Dham" src="/places/Jageshwar Dham.jpg" alt="Jageshwar Dham" />
             </div>
             <div className="w-full md:w-2/3">
               <span className="font-label-md text-label-md text-primary tracking-widest uppercase mb-4 block">Half-Day Excursion</span>
@@ -163,9 +154,9 @@ export default function Experiences() {
                   <p className="font-body-md text-body-md">36 KM (1.5 hrs Drive)</p>
                 </div>
               </div>
-              <button className="border-2 border-tertiary px-8 py-3 font-label-md text-label-md tracking-[0.2em] hover:bg-tertiary hover:text-on-tertiary transition-all">
+              <Link href="/contact" className="border-2 border-tertiary px-8 py-3 font-label-md text-label-md tracking-[0.2em] hover:bg-tertiary hover:text-on-tertiary transition-all inline-block">
                 REQUEST A TOUR GUIDE
-              </button>
+              </Link>
             </div>
           </div>
         </div>
